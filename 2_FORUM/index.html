@@ -17,13 +17,25 @@
         <div class="form-header">
             <p>Formulário</p>
             <div class="form-body">
-                <h1 class="form-title">Venda ou compre desenhos na Drawing Izzy</h1>
+                <h1 class="form-title">Venda ou compre desenhos na Drawing Izzy!</h1>
                 <p>
                     Monte seu low drawn abaixo:
                 </p>
+               <form>
                 <div class="box-input">
-                    <label for="title">Titulo do anúcio <span class="required-field">*</span></label>
+                    <label for="title">Titulo do anúcio<span class="required-field">*</span></label>
+                    <input type="text"
+                     name="title" 
+                     id="title" 
+                     class="block" 
+                     placeholder="Um Titulo para anúciar seu desenho"
+                     minlength="1"
+                     maxlength="30"
+                     required>
+                     
                 </div>
+                <input type="submit" value="Enviar">
+               </form>
             </div>
         </div>
     </div>
